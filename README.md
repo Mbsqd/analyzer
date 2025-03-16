@@ -32,15 +32,15 @@ To run the program, execute the following command with the required parameters:
 java -jar ./target/analyzer-1.0-SNAPSHOT.jar <min> <max> <start> <end> <step> <sampling>
 ```
 
-Parameters:
-    <min>: Minimum input size for the sorting algorithms.
-    <max>: Maximum input size for the sorting algorithms.
-    <start>: Start of the range for sorting algorithm execution.
-    <end>: End of the range for sorting algorithm execution.
-    <step>: Step size for the range.
-    <sampling>: Number of times the sorting algorithm will be sampled.
+## Parameters:
+- **`<min>`**: Minimum input size for the sorting algorithms.
+- **`<max>`**: Maximum input size for the sorting algorithms.
+- **`<start>`**: Start of the range for sorting algorithm execution.
+- **`<end>`**: End of the range for sorting algorithm execution.
+- **`<step>`**: Step size for the range.
+- **`<sampling>`**: Number of times the sorting algorithm will be sampled.
 
-Example:
+## Example:
 ```bash
 java -jar ./target/analyzer-1.0-SNAPSHOT.jar 0 1000 0 1000 100 5
 ```
