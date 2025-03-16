@@ -33,8 +33,8 @@ java -jar ./target/analyzer-1.0-SNAPSHOT.jar <min> <max> <start> <end> <step> <s
 ```
 
 ## Parameters:
-- **`<min>`**: Minimum input size for the sorting algorithms.
-- **`<max>`**: Maximum input size for the sorting algorithms.
+- **`<min>`**: Minimum input data for the sorting algorithms.
+- **`<max>`**: Maximum input data for the sorting algorithms.
 - **`<start>`**: Start of the range for sorting algorithm execution.
 - **`<end>`**: End of the range for sorting algorithm execution.
 - **`<step>`**: Step size for the range.
